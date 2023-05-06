@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed =7f;
     [SerializeField] private float jumpSpeed =14f;
 
-    private enum MovementState {idle, running, jumping, falling}
+    private enum MovementState {idle, running, jumping, falling}// here enumm is used to create our own datatype for animation like rigidbody
     // Start is called before the first frame update
     void Start()
     {
