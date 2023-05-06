@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
     private Animator anim;
-
+    Vector2 movement;
+    Vector2 mousePos;
     private float dirx; // player side ways movement
     [SerializeField] private float moveSpeed =7f;
     [SerializeField] private float jumpSpeed =14f;
