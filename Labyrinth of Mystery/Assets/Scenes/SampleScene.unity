@@ -373,6 +373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1745594548}
   pink_Man: {fileID: 555515115}
+  ninja_frog: {fileID: 438542877}
+  mask_dude: {fileID: 1426964868}
 --- !u!1 &555515109
 GameObject:
   m_ObjectHideFlags: 0
